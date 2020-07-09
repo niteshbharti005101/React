@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Javascript Practice</title>
+	<style>
+		.main{
+			display: flex;
+			justify-content: center;
+		}
+		#first,
+		#second{
+			width: 30%;
+			border: 2px solid #ddd;
+			padding: 1%;
+			margin: 1%;
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+		<!-- First division -->
+		<div id="first">
+			A
+		</div>
+		<!-- First division -->
+		<div id="second">
+			B
+		</div>
+	</div>
+	<div class="main">
+		Second parent
+	</div>
+</body>
+</html>
+<script>
+	var first=document.getElementById('first')
+	console.log(first);
+	document.write("This is DOM");
+	var classAttribute=document.getElementsByClassName('main');
+	console.log(classAttribute[0]);
+	console.log(classAttribute[1]);
+	var tagAttribute=document.getElementsByTagName('body')
+	console.log(tagAttribute[0]);
+	var common=document.querySelector(".main");
+	console.log(common);
+	var common=document.querySelector("body");
+	console.log(common);
+	var common=document.querySelectorAll(".main");
+	console.log(common[1]);
+	var second=document.getElementById("second").innerHTML="Hello Everyone!!";
+	console.log(second);
+	var heading2 = document.createElement("h2").textContent="Heading!!";
+	console.log(heading2);
+	var heading22 = document.createElement("h2");
+	heading22.textContent="Heading!!";
+	console.log(heading22);
+	var secondDiv = document.getElementById("second");
+	secondDiv.appendChild(heading22);
+</script>

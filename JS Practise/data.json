@@ -1,0 +1,14 @@
+{
+	"profile":{
+		"basics":{
+			"name": "Kalyan Chakravarthi P",
+			"role": "MERN Developer",
+			"email":"kalyanchakravarthi.p@apssdc.in",
+			"mobile":"+91 9603487813",
+			"address": "Amaravathi, Andhra Prandesh"
+		},
+		"details":{
+
+		}
+	}
+}

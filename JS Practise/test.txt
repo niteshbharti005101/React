@@ -1,0 +1,33 @@
+var student={
+    name: "Sai Vasanth",
+    role: "Fresher",
+    branch: "CSE"
+}
+student.name
+"Sai Vasanth"
+student.role
+"Fresher"
+student.percentage
+undefined
+student.percentage="95%"
+"95%"
+student
+{name: "Sai Vasanth", role: "Fresher", branch: "CSE", percentage: "95%"}
+var stud={
+    name: "nitesh bharti",
+    friends: ["Hemanth","savya sree","ruthvik"]
+}
+stud.friends[0]
+"Hemanth"
+stud.friends[stud.friends.length-1]
+"ruthvik"
+var s1={
+    s11:{
+        name:"Swetha"
+    },
+    s12:{
+        name:"venkatesh"
+    }
+}
+s1.s11.name
+"Swetha"
