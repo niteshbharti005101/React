@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title> :: BOOTSTRAP STYLES ::</title>
+</head>
+<body>
+	<section class="parent">
+		<article class="child">
+			
+		</article>
+	</section>
+</body>
+</html>
+<script>
+	var parent=document.querySelector(".parent");
+	var child=document.querySelector(".child");
+	var h2=document.createElement("h2");
+	h2.textContent="Nitesh";
+	child.append(h2);
+	var role=document.createElement("h4");
+	role.textContent="Web Developer";
+	child.append(role);
+	var hr=document.createElement("hr");
+	child.append(hr);
+	var email=document.createElement("a");
+	email.href="mailto:"+"niteshbharti5101@gmail.com";
+	email.textContent="niteshbharti5101@gmail.com";
+	child.append(email);
+	var br=document.createElement("br");
+	child.append(br);
+	var mobile=document.createElement("a");
+	mobile.href="tel:"+"9123119925";
+	mobile.textContent="9123119925";
+	child.append(mobile);
+	parent.append(child);
+</script>

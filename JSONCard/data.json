@@ -1,0 +1,17 @@
+{
+	"profiles":[
+		{
+			"profileinfo":{
+				"name":"Bhavya",
+				"email":"bhavyalakshmi.m@apssdc.in",
+				"mobileno":"9959754455"
+			}
+		},
+		{
+			"profileinfo":{
+				"name":"Swathi",
+				"email":"swathi@gmail.com",
+				"mobileno":"8106358909"
+			}
+		}]
+}
