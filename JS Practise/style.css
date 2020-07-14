@@ -4,7 +4,7 @@
 header{
 	background: #2755a7;
 	color: #fff;
-	padding: 0.3%;
+	padding: .3%;
 	box-shadow: 0px 8px 8px -8px #000;
 }
 .parent{
@@ -19,9 +19,10 @@ header{
 	border: 1px solid #ddd;
 	box-shadow: 0px 8px 8px -8px #000;
 	margin: 1%;
+	height: 50%;
 }
 .child2{
-	width: 70%;
+	width: 65%;
 	padding: 1%;
 	margin: 1%;
 	border: 1px solid #ddd;
@@ -31,8 +32,22 @@ header{
 	color: #d6d4d2;
 	font-style: italic;
 }
+.link{
+	text-decoration: none;
+	word-wrap: break-word;
+	display: block;
+}
+.skill{
+	margin: 1%;
+	padding: 1%;
+	border-radius: 10px;
+	box-shadow: 0px 8px 8px -8px #000;
+	background: #424cb4;
+	color: #fff;
+	border: 1 px solid #1c2363;
+}
 /*Responsive ness*/
-@media only screen(min-width: 320px) and (max-width: 480px)
+@media only screen and (min-width: 320px) and (max-width: 480px)
 {
 	.child1,
 	.child2{
@@ -41,7 +56,7 @@ header{
 		font-size: 25px;
 	}
 }
-@media only screen(min-width: 481px) and (max-width: 780px)
+@media only screen and (min-width: 481px) and (max-width: 780px)
 {
 	.child1,
 	.child2{

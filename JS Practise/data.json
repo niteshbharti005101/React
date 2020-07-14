@@ -1,14 +1,52 @@
 {
 	"profile":{
 		"basics":{
-			"name": "Kalyan Chakravarthi P",
-			"role": "MERN Developer",
-			"email":"kalyanchakravarthi.p@apssdc.in",
-			"mobile":"+91 9603487813",
-			"address": "Amaravathi, Andhra Prandesh"
+			"name": "Nitesh Bharti",
+			"role": "Web Developer",
+			"email":"niteshbharti5101@gmail.com",
+			"mobile":"+91 9123119925",
+			"address": "Chira Chas, Bokaro Steel City"
 		},
 		"details":{
-			
+			"summary":[
+				"Pursuing Batchelors Degree in the field of computer science and engineering.",
+				"Having knowledge on Front-End Web Development.",
+				"Build projects using HTML, CSS and Javascript.",
+				"Focused on programming languages like Java, Python, C and C++"
+			],
+			"education":[
+				{
+					"Degree":"Computer Science and Engineering.",
+					"Institute":"SRM University AP (2018 - 2022)",
+					"Percentage":"96%"
+				},{
+					"Degree": "Intermediate (PCM) in Science.",
+					"Institute":"St. Xavier's School.",
+					"Percentage":"84%"
+				},
+				{
+					"Degree":"S.S.C",
+					"Institute":"St. Xavier's School.",
+					"Percentage":"87%"
+				}
+			],
+			"Skills":[
+				{
+					"type":"Programming Languages",
+					"values":["C","C++","Java","Python"]
+				},
+				{
+					"type":"Web Tecnologies",
+					"values":["HTML","CSS","Javascript","NodeJS"]
+				},
+				{
+					"type":"Frameworks",
+					"values":["Bootstrap","React JS","Express"]
+				},
+				{
+					"type":"IoT",
+					"values":["Arduino","Raspberry Pi", "ESP8266 NodeMCU"]
+				}]			
 		}
 	}
 }
